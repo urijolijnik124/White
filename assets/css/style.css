@@ -1,0 +1,102 @@
+.logo {
+    float: left;
+    margin-left: 50px;
+}
+.logo a {
+    font-size: 26px;
+    font-family: Roboto, sans-serif;
+    color: #3333;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+
+}
+.logo a:link {
+    color: #333;
+}
+.logo a span {
+    display: inline-block;
+    margin-right: 18px;
+}
+.letter1{
+
+    font-weight: 900;
+}
+.letter2{
+    font-weight: 700;
+}
+.letter3{
+    font-weight: 400;
+}
+.letter4{
+    font-weight: 300;
+}
+.letter5{
+    font-weight: 300;
+}
+
+#search-form {
+    display: flex;
+    justify-content: flex-end;
+}
+#search-form form {
+    position:relative;
+    height:40px;
+    margin:20px 0 20px 19px;
+    padding-left:49px;
+    border-left:1px solid #ccc;
+    font-family: FontAwesome;
+}
+#search-form form:before {
+    content: "\f002";
+    position:absolute;
+    left:29px;
+    top:-2px;
+    height:40px;
+    line-height:40px;
+    font-size:15px;
+    color:#cccc;
+}
+
+#search-form input {
+    width:42px;
+    margin:0;
+    padding:11px 0;
+    text-transform:none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    line-height:20px;
+    font-size: 13px;
+    color: #999;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+#search-form input:focus {
+    width:140px;
+    padding: 11px 20px 11px 0;
+}
+
+.nav-bar {
+    display: flex;
+justify-content: center;
+    margin-top: -55px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #666;
+
+}
+.nav-bar ul li:hover a,.nav-bar ul li:active a {
+    color: #333;
+}
